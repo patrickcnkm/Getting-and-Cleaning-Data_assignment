@@ -2,7 +2,7 @@
   All documents under this repo target to deliver the requirements of the assignment from the course of Coursera -Getting and Cleaning Data - analyzing the experiment data from Human Activity Recognition Using Samsung Galaxy S II. 
  
   The detail requirements information can be found out in the following link:
-  [(https://class.coursera.org/getdata-008/human_grading/view/courses/972586/assessments/3/submissions)].
+  https://class.coursera.org/getdata-008/human_grading/view/courses/972586/assessments/3/submissions.
   
   Under this repo, 2 documents are presented:
   - run_analysis.R: R script to achieve the analysis results required by the assignment.
@@ -13,4 +13,10 @@
   
   
 # Usage of R script (run_analysis.R)
+  The whole script is consisted of the following parts:
+  1. Initialization and preparation of the subsequent coding, that includes:
+  2. Training data processing.
+  3. Testing data procssing.
+  4. Combining both training data and testing data.
+  5. Calculating the mean values by subjects and activities based on the dataset of the part 4.
 # Brief of codebook ( codebook.pdf)
