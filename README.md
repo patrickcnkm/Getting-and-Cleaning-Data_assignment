@@ -15,6 +15,10 @@
 # Usage of R script (run_analysis.R)
   The whole script is consisted of the following parts:
   1. Initialization and preparation of the subsequent coding, that includes:
+     - Loading the library "plyr" for the subsequent functions such as 'join'.
+     - Setting the working directory for the whole script, that is base of loading / writing files.
+     - Loading the common data into R ( Feature, activity label).
+     - Assigning the meaningful column names to the loaded tables ( feature, activity label)
   2. Training data processing.
   3. Testing data procssing.
   4. Combining both training data and testing data.
