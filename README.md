@@ -20,7 +20,12 @@
      - Loading the common data into R ( Feature, activity label).
      - Assigning the meaningful column names to the loaded tables ( feature, activity label)
   2. Training data processing.
-  3. Testing data procssing.
+     - Loading the training data into R ( subject, activity, recording / processed training data).
+     - Assining the meaningful columns names to the loaded tables from above.
+     - Joining the tables bewteen activity and activity label.
+     - Combining the datasets among subject, activity with label, recording / processed training data with new column "type" to indicate those data come from training.
+  3. Testing data procssing - repeating the same process in above 2 for the test data.
   4. Combining both training data and testing data.
-  5. Calculating the mean values by subjects and activities based on the dataset of the part 4.
+  5. Calculating the mean values by subjects and activities based on the dataset of the part 4, then output the data to be a txt file.
 # Brief of codebook ( codebook.pdf)
+   This file is used to describe the key dataset produced from the part 4 in the above R script. In this file, the description, available values(for qualitative fields - subject, activity), unit ( for all quantitative measurement fields) on each variable are presented to let auidence know the usage of each variable.
